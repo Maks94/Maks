@@ -1,0 +1,13 @@
+#include<stdafx.h>
+#include<iostream>
+using namespace std;
+
+int main (void)
+{
+	cout<<__FILE__<<__LINE__<<" Hello"<<endl;
+	cout<<__FILE__<<__LINE__<<" This is message 2"<<endl;
+	cout<<__FILE__<<__LINE__<<" This is message 3"<<endl;
+	
+
+return 0;
+}
