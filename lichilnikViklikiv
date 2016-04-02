@@ -1,0 +1,14 @@
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+ int foo()
+ {
+	
+  static int z;
+  z++;
+  return z;
+ }
+ int main()
+ {
+ cout<<foo;
+ }
