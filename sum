@@ -1,0 +1,10 @@
+#include "stdafx.h"
+#include <iostream>
+ using namespace std;
+ int main (void)
+ {
+	int a = 4; int b = 2;
+	 float f=(a+b);
+ 
+	 cout<<"сума =  "<<f<<endl;
+ }
